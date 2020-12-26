@@ -1,0 +1,13 @@
+﻿  cApp.cpp
+  cFrame.cpp
+  cLoginFrame.cpp
+  Generowanie kodu...
+cLoginFrame.obj : error LNK2019: nierozpoznany symbol zewnętrzny "public: __thiscall SAString::SAString(char const *)" (??0SAString@@QAE@PBD@Z) przywołany w funkcji "public: void __thiscall cLoginFrame::OnButtonClicked(class wxCommandEvent &)" (?OnButtonClicked@cLoginFrame@@QAEXAAVwxCommandEvent@@@Z)
+cLoginFrame.obj : error LNK2019: nierozpoznany symbol zewnętrzny "public: char const * __thiscall SAString::GetMultiByteChars(void)const " (?GetMultiByteChars@SAString@@QBEPBDXZ) przywołany w funkcji __catch$?OnButtonClicked@cLoginFrame@@QAEXAAVwxCommandEvent@@@Z$0
+cLoginFrame.obj : error LNK2019: nierozpoznany symbol zewnętrzny "public: __thiscall SAString::~SAString(void)" (??1SAString@@QAE@XZ) przywołany w funkcji "public: void __thiscall cLoginFrame::OnButtonClicked(class wxCommandEvent &)" (?OnButtonClicked@cLoginFrame@@QAEXAAVwxCommandEvent@@@Z)
+cLoginFrame.obj : error LNK2019: nierozpoznany symbol zewnętrzny "public: __thiscall SAConnection::SAConnection(void)" (??0SAConnection@@QAE@XZ) przywołany w funkcji "public: void __thiscall cLoginFrame::OnButtonClicked(class wxCommandEvent &)" (?OnButtonClicked@cLoginFrame@@QAEXAAVwxCommandEvent@@@Z)
+cLoginFrame.obj : error LNK2019: nierozpoznany symbol zewnętrzny "public: virtual __thiscall SAConnection::~SAConnection(void)" (??1SAConnection@@UAE@XZ) przywołany w funkcji __catch$?OnButtonClicked@cLoginFrame@@QAEXAAVwxCommandEvent@@@Z$0
+cLoginFrame.obj : error LNK2019: nierozpoznany symbol zewnętrzny "public: void __thiscall SAConnection::Connect(class SAString const &,class SAString const &,class SAString const &,enum eSAClient,void (__cdecl*)(class SAConnection &,enum eSAConnectionHandlerType))" (?Connect@SAConnection@@QAEXABVSAString@@00W4eSAClient@@P6AXAAV1@W4eSAConnectionHandlerType@@@Z@Z) przywołany w funkcji "public: void __thiscall cLoginFrame::OnButtonClicked(class wxCommandEvent &)" (?OnButtonClicked@cLoginFrame@@QAEXAAVwxCommandEvent@@@Z)
+cLoginFrame.obj : error LNK2019: nierozpoznany symbol zewnętrzny "public: void __thiscall SAConnection::Rollback(void)" (?Rollback@SAConnection@@QAEXXZ) przywołany w funkcji __catch$?OnButtonClicked@cLoginFrame@@QAEXAAVwxCommandEvent@@@Z$0
+cLoginFrame.obj : error LNK2019: nierozpoznany symbol zewnętrzny "public: class SAString __thiscall SAException::ErrText(void)const " (?ErrText@SAException@@QBE?AVSAString@@XZ) przywołany w funkcji __catch$?OnButtonClicked@cLoginFrame@@QAEXAAVwxCommandEvent@@@Z$0
+C:\Users\matiz\source\repos\PO_serwis_wx\Debug\PO_serwis_wx.exe : fatal error LNK1120: liczba nierozpoznanych elementów zewnętrznych: 8
